@@ -3,3 +3,11 @@
     background-position: right bottom;
     background-repeat: no-repeat;
 }
+
+.font-inter{
+font-family: 'Inter', sans-serif;
+}
+
+.font-noto{
+font-family: 'Noto Serif', serif;
+}
