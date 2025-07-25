@@ -7,3 +7,6 @@ font-family: 'Inter', sans-serif;
 .font-noto{
 font-family: 'Noto Serif', serif;
 }
+#newsLetter{
+    background-image: url("./assets/news-letter-bg.png");
+}
