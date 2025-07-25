@@ -22,42 +22,37 @@
 
     
 </head>
-<body class="w-[1400px] mx-auto">
-    <header>
+<body class="md:w-[1400px] mx-auto">
+    <header class="md:w-[1140px] w-11/12 mx-auto mt-4 md:mt-6">
         <nav  class="flex justify-between items-center">
             <!-- nav Content -->
-             <img src="/assets/logo.png" alt="">
-             <ul class="flex gap-4">
-                <li>Home</li>
-                <li>Shop</li>
-                <li>About</li>
-                <li> <span class="material-symbols-outlined">
-                    shopping_cart
-                </span>Cart</li>
+             <img class="w-[60px] md:w-[130px] h-[36px] md:h-[80px] " src="/assets/logo.png" alt="">
+             <ul class="flex gap-12 text-[16px] ">
+                <li class="font-bold font-inter hidden md:block">Home</li>
+                <li class="font-inter hidden md:block text-[#8987A1]">Shop</li>
+                <li class="font-inter hidden md:block text-[#8987A1]">About</li>
+                <li class="font-inter hidden  md:flex items-center gap-2"><span class="material-symbols-outlined">shopping_cart</span>Cart (56$)</li>
              </ul>
-            
         </nav>
-
-        <!-- Banner Content -->
         <!-- Banner Section -->
-        <section  class="flex flex-col-reverse md:flex-row  md:items-end border-2">
-            <div class=" border-2 h-[460px] flex flex-col justify-end items-start gap-4 w-2/5">
-                <h1 class="text-6xl font-bold font-noto">Always <span class="text-[#E95A08]">Fresh Flowers</span></h1>
+        <section  class="flex flex-col-reverse md:flex-row  md:items-end gap-5 justify-between">
+            <div class=" space-y-3 md:h-[460px] flex flex-col justify-start md:justify-end items-start gap-2 md:gap-4 md:w-2/5">
+                <h1 class="text-4xl  md:text-6xl font-bold font-noto">Always <span class="text-[#E95A08]">Fresh Flowers</span></h1>
                 <p class="text-xl font-normal font-inter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo animi, ratione delectus nisi eius laudantium
                     molestiae mollitia tempore nulla itaque officiis! Accusamus atque quidem commodi officiis non cumque at
                     consequuntur.</p>
             </div>
-            <div class=" border-2 flex justify-end">
-                <img src="./assets/hero-flower.png" alt="">
+            <div class="flex justify-end ">
+                <img src="./assets/hero-flower.png" class="w-full" alt="">
             </div>
         </section>
     </header>
     <main>
         <!-- Our Plants Section -->
-         <section class="space-y-12 mt-28 md:w-[1140px] mx-auto">
+         <section class="space-y-12 mt-16 md:mt-28 w-11/12 md:w-[1140px] mx-auto">
             <!-- Text Container -->
-             <div class="text-center w-4/5 md:w-2/5 mx-auto space-y-4">
-                <h2 class="text-5xl font-bold font-noto"><span class="text-[#E95A08]">Our</span> Plants</h2>
+             <div class="text-center w-11/12 md:w-2/5 mx-auto space-y-4">
+                <h2 class="text-4xl md:text-5xl font-bold font-noto"><span class="text-[#E95A08]">Our</span> Plants</h2>
                 <p class="text-[#00000080] text-xl font-normal">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
                 offer a wide variety of fresh.</p>
              </div>
@@ -69,7 +64,7 @@
                         <h3 class="text-xl font-bold">20 USD</h3>
                     </div>
                     
-                    <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                    <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg md:text-lg w-full text-white">Add to Cart</button>
                 </div>
                 <div class="text-center space-y-6">
                     <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -78,7 +73,7 @@
                         <h3 class="text-xl font-bold">20 USD</h3>
                     </div>
                 
-                    <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                    <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
                 </div>
         <div class="text-center space-y-6">
             <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -87,7 +82,7 @@
                 <h3 class="text-xl font-bold">20 USD</h3>
             </div>
         
-            <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+            <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
         </div>
             <div class="text-center space-y-6">
                 <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -96,7 +91,7 @@
                     <h3 class="text-xl font-bold">20 USD</h3>
                 </div>
             
-                <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
             </div>
                 <div class="text-center space-y-6">
                     <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -105,7 +100,7 @@
                         <h3 class="text-xl font-bold">20 USD</h3>
                     </div>
                 
-                    <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                    <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
                 </div>
                 <div class="text-center space-y-6">
                     <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -114,7 +109,7 @@
                         <h3 class="text-xl font-bold">20 USD</h3>
                     </div>
                 
-                    <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                    <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
                 </div>
                 <div class="text-center space-y-6">
                     <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -123,7 +118,7 @@
                         <h3 class="text-xl font-bold">20 USD</h3>
                     </div>
                 
-                    <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                    <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
                 </div>
                 <div class="text-center space-y-6">
                     <img class="w-full" src="./assets/sample-flower-image.png" alt="">
@@ -132,44 +127,40 @@
                         <h3 class="text-xl font-bold">20 USD</h3>
                     </div>
                 
-                    <button class="bg-[#E95A08] px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
+                    <button class="bg-[#E95A08] px-6 md:px-12 py-4 font-semibold text-lg w-full text-white">Add to Cart</button>
                 </div>
              </div>
             <!-- Flower Container -->
          </section>
         <!-- Flower and Plants lover Section -->
-         <section class="space-y-12 mt-28 relative md:w-[1140px] mx-auto">
-            <div class="flex flex-col md:flex-row gap-14">
+         <section class="space-y-12 mt-16 md:mt-40 relative w-11/12 md:w-[1140px] mx-auto">
+            <div class="flex flex-col md:flex-row gap-10 md:gap-36">
                 <!-- img container -->
                 <div class="flex-1">
                     <img class="w-full" src="./assets/flower-store.png" alt="">
                 </div>
                 <!--  text container-->
-                <div class="flex-1">
-                    <h2>Flower & Plants Lover</h2>
+                <div class="flex-1 space-y-8 flex flex-col justify-center">
+                    <h2 class="text-4xl md:text-5xl font-semibold md:font-bold">Flower & Plants Lover</h2>
+                    <ul class="list-disc px-2">
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+                        offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+                        offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+                        offer a wide variety of fresh.</li>
+                       
+                    </ul>
                    
-                    <ul class="mt-6 space-y-4 text-gray-600 text-base list-disc list-inside">
-                        <li>
-                            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms,
-                            we offer a wide variety of fresh.
-                        </li>
-                        <li>
-                            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms,
-                            we offer a wide variety of fresh.
-                        </li>
-                        <li>
-                            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms,
-                            we offer a wide variety of fresh.
-                        </li>
                 </div>
             </div>
             <!-- badge continer -->
-                <img class="absolute w-[286px] h-[289px] -top-36 left-96" src="./assets/trusted-badge.png" alt="">
+                <img class="hidden md:block absolute w-[280px] h-[282px] -top-32 left-[360px]" src="./assets/trusted-badge.png" alt="">
             
          </section>
         <!-- Latest Deals Section-->
-         <section class="space-y-12 mt-28 md:w-[1140px] mx-auto">
-            <div class="w-3/5 mx-auto text-center space-y-2">
+         <section class="space-y-12 mt-16 md:mt-28 w-11/12 md:w-[1140px] mx-auto">
+            <div class="w-11/12 md:w-3/5 mx-auto text-center space-y-2">
                 <h2 class="text-5xl font-bold font-noto">
                     <span class="text-[#E95A08]">Latest</span> Deal
 
@@ -179,11 +170,11 @@
                     offer a wide variety of fresh.
                 </p>
             </div>
-            <div class="grid grid-cols-3 gap-4 max-w-6xl mx-auto p-4  rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4   mx-auto  rounded-lg">
                 <!-- Left Column -->
                 <div class="col-span-1 flex flex-col gap-4">
                     <!-- Bloom Plant -->
-                    <div class="relative h-40 rounded-lg overflow-hidden">
+                    <div class="relative h-1/2 rounded-lg overflow-hidden">
                         <img src="./assets/deal-bloom.png" alt="" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white text-center">
                             <p class="text-lg font-semibold">60% Off | Bloom Plant</p>
@@ -192,7 +183,7 @@
                     </div>
             
                     <!-- Ana Plant -->
-                    <div class="relative h-40 rounded-lg overflow-hidden">
+                    <div class="relative h-1/2 rounded-lg overflow-hidden">
                         <img src="./assets/deal-ana.png" alt="" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white text-center">
                             <p class="text-lg font-semibold">30% Off | Ana Plant</p>
@@ -213,7 +204,7 @@
 
          </section>
         <!-- Subscribe Section -->
-         <section  id="newsLetter" class=" mt-28 h-[520px] flex flex-col justify-center">
+         <section  id="newsLetter" class=" mt-16 md:mt-28 h-[520px] flex flex-col justify-center">
             <div class="w-full md:w-5/12 mx-auto space-y-3  ">
                 <h2 class="text-center font-noto font-bold text-5xl text-white">Join the colorful Bunch</h2>
                <div class="flex">
@@ -223,7 +214,7 @@
             </div>
          </section>
     </main>
-    <footer class="flex flex-col md:flex-row md:w-[1140px] mx-auto">
+    <footer class="flex flex-col md:flex-row my-14 w-11/12 md:w-[1140px] mx-auto">
         <div class="flex-1">
             <img src="./assets/logo.png" alt="">
             <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
